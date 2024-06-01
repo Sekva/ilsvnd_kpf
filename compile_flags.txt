@@ -1,0 +1,15 @@
+-x
+c++
+-Wall
+-Wextra
+-pedantic
+-std=c++17
+-D_FORTIFY_SOURCE=2
+-D_GNU_SOURCE
+-DADDRM
+-DSWAPS
+-DTABU
+-DNUM_THREADS=1
+-DTIME_LIMIT=10
+-fstack-protector-all
+-g

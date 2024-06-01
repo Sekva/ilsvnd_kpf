@@ -1,0 +1,25 @@
+#+TITLE: ILS-VND for Knapsack Problem with Forfeits
+
+** ILS-VND for Knapsack Problem with Forfeits
+*** To compile:
+#+BEGIN_SRC bash
+make
+#+END_SRC
+You can change some parameters in the Makefile (like time limits)
+
+*** To run:
+#+BEGIN_SRC bash
+  ./ilsvnd_kpf <path to instance file> \
+               [--rand_seed <random seed>] \
+               [--swap21_filter <filter value>] \
+               [--ils_c1 <c1>] \
+               [--ils_c2 <c2>]  \
+               [--ils_c3 <c3>] \
+               [--ils_c4 <c4>] \
+               [--tabu_tenure <tabu tenure>]
+#+END_SRC
+
+*** To clean
+#+BEGIN_SRC bash
+make clean
+#+END_SRC

@@ -1,6 +1,8 @@
 #+TITLE: ILS-VND for Knapsack Problem with Forfeits
 
-** ILS-VND for Knapsack Problem with Forfeits
+** About
+This code implements the method described in "An integrated ILS-VND strategy for solving the knapsack problem with forfeits" and was used in testing. The publication was made in the [[https://link.springer.com/journal/10732][Journal of Heuristics]] and can be found at: [[https://doi.org/10.1007/s10732-024-09532-3]].
+** Instructions
 *** To compile:
 #+BEGIN_SRC bash
 make
